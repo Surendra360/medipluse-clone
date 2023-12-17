@@ -1,0 +1,47 @@
+* {
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+width: 100%;
+height: 100%;
+}
+.main{
+    position: relative;
+    font-family: gilroy;
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.nav{
+    width: 100vw;
+    height: 20vh;
+    background-color: green;
+}
+.nav-1st{
+    width: 100vw;
+    height: 40%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 0 13vw; */
+}
+.nav-1st-part1>ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    gap:1.5vw;
+    /* background-color: red; */
+}
+.nav-1st-part2>ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    gap: 1.5vw;
+    /* background-color: red; */
+}
