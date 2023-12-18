@@ -20,12 +20,12 @@ height: 100%;
 .nav{
     width: 100vw;
     height: 20vh;
-    background-color: green;
+    background-color: white;
 }
 .nav-1st{
     width: 100vw;
     height: 40%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -43,5 +43,20 @@ height: 100%;
     display: flex;
     list-style: none;
     gap: 1.5vw;
+    /* background-color: red; */
+}
+
+.nav-2nd{
+    width: 100vw;
+    height: 60%;
+    /* background-color: rgb(47, 103, 151); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-2nd>ul{
+    display: flex;
+    list-style: none;
+    gap:1.5vw;
     /* background-color: red; */
 }
